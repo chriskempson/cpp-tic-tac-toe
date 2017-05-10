@@ -73,7 +73,9 @@ bool Game::init(char* title, int window_width, int window_height)
 			std::cout << "SDL_LoadBMP Error: " << SDL_GetError() << std::endl;
 			return false;
 		}
+
 		SDL_SetWindowIcon(window, icon);
+		SDL_FreeSurface(icon);
 	}
 
 	// Create renderer for window

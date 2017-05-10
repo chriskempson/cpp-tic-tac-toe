@@ -19,9 +19,10 @@ Download [SDL2-devel-2.0.4-VC.zip](https://www.libsdl.org/release/SDL2-devel-2.0
 
 Setup an environment variable called `CPP_LIBS` and enter the location where you extracted SDL2 and SDL2_mixer.
 
+Finally, copy `SDL.dll` from `SDL2-2.0.4\lib\x86` and from `SDL2_mixer-2.0.1\lib\x86` to the `Debug` and/or `Release` folders (created after you try to compile a debug or release version respectively.
+
 ## Assets
-All sounds were created with [DefleMask Tracker](http://deflemask.com/) using Nintendo Game boy sound chip emulation.
-All images were created with the venerable [Microsoft Paint](https://en.wikipedia.org/wiki/Microsoft_Paint).
+All sounds were created with [DefleMask Tracker](http://deflemask.com/) using Nintendo Game boy sound chip emulation. All images were created with the venerable [Microsoft Paint](https://en.wikipedia.org/wiki/Microsoft_Paint).
 
 ## Licences
 The code is released under the [MIT Licence](https://opensource.org/licenses/MIT). The assets are released under the [Creative Commons Attribution 4.0 International Licence](https://creativecommons.org/licenses/by/4.0/).
