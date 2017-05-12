@@ -4,6 +4,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [1.0.2] - 2017-05-12
+### Changed
+- Fix link to v1.0.1 compare
+- Ignore Documentation folder
+- Move Doxyfile to project root and update file accordingly
+
+### Removed 
+- Remove generated documentation from Git repository. Generated documentation now provided in release.
+
 ## [1.0.1] - 2017-05-12
 ### Added
 - CHANGELOG.md
@@ -24,4 +33,5 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Added
 - Initial release
 
-[1.0.1]: https://github.com/chriskempson/cpp-tic-tac-toe/compare/v0.0.1...v0.0.2
+[1.0.2]: https://github.com/chriskempson/cpp-tic-tac-toe/compare/v1.0.1...v1.0.2
+[1.0.1]: https://github.com/chriskempson/cpp-tic-tac-toe/compare/v1.0.0...v1.0.1
