@@ -1,5 +1,5 @@
 /*
- * Tic Tac Toe
+ * Tic-tac-toe
  * MIT Licence, Copyright 2017 Chris Kempson (chriskempson.com)
  */
 
@@ -54,7 +54,7 @@ private:
 	bool play_a_move(int col, int row);
 
 	/**
-	 *
+	 * See if the grid contains a win or if all moves have been made
 	 *
 	 * @param col Grid column number to run check from
 	 * @param row Grid row number to run check from

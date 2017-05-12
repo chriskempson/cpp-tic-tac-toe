@@ -1,5 +1,5 @@
 /*
- * Tic Tac Toe
+ * Tic-tac-toe
  * MIT Licence, Copyright 2017 Chris Kempson (chriskempson.com)
  */
 
@@ -39,7 +39,8 @@ bool Sound_resource::load_from_file(char* file)
 	return true;
 }
 
-void Sound_resource::play()  {
+void Sound_resource::play()
+{
 	if (chunk == NULL) {
 		std::cout << "Mix_PlayChannel Error: Couldn't play chunk for " << path << ". SDL_mixer Error: " << Mix_GetError() << std::endl;
 	}

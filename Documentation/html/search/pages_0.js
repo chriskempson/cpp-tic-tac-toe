@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['tic_20tac_20toe',['Tic Tac Toe',['../index.html',1,'']]]
+  ['tic_2dtac_2dtoe',['Tic-Tac-Toe',['../index.html',1,'']]]
 ];

@@ -1,5 +1,5 @@
 /*
- * Tic Tac Toe
+ * Tic-tac-toe
  * MIT Licence, Copyright 2017 Chris Kempson (chriskempson.com)
  */
 
@@ -7,7 +7,9 @@
 #include <SDL.h>
 
 /**
- * Runs the game loop and performs SDL initialisation
+ * Provides the core of the game application: window management,
+ * event capture, render area, main game loop and any helper
+ * functions related to the game
  */
 class Game
 {

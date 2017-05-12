@@ -1,8 +1,11 @@
-# Tic Tac Toe
+# Tic-Tac-Toe
 ![Animated capture of game window](game_window_capture.gif)
 
 ## About
-A game of Tic Tac Toe created by [Chris Kempson](http://chriskempson.com/) in C++ with [Simple DirectMedia Layer version 2](https://www.libsdl.org/). This project demonstrates a simple but fully-finished game built as a learning aid. The code is perhaps over-engineered for Tic Tac Toe but will be useful as a base for more advanced games.
+A game of [Tic-Tac-Toe](https://en.wikipedia.org/wiki/Tic-tac-toe) created by [Chris Kempson](http://chriskempson.com/) in C++ with [Simple DirectMedia Layer version 2](https://www.libsdl.org/). This project demonstrates a simple but fully-finished game built as a learning aid. The code is perhaps over-engineered for Tic-tac-toe but will be useful as a base for more advanced games.
+
+## How to Play
+This is a two player game. Clicking the mouse on the title screen will advance to the play screen. To place a piece on the grid click the mouse in the desired grid area. Once a win or draw message is display, clicking again will return to the title screen.
 
 ## Features
 - Game resources (images and sounds) are handled by a resource manager making them easy to use in any class.
@@ -24,7 +27,8 @@ Finally, copy `SDL.dll` from `SDL2-2.0.4\lib\x86` and from `SDL2_mixer-2.0.1\lib
 ## Assets
 All sounds were created with [DefleMask Tracker](http://deflemask.com/) using Nintendo Game boy sound chip emulation. All images were created with the venerable [Microsoft Paint](https://en.wikipedia.org/wiki/Microsoft_Paint).
 
-## Licences
-The code is released under the [MIT Licence](https://opensource.org/licenses/MIT). The assets are released under the [Creative Commons Attribution 4.0 International Licence](https://creativecommons.org/licenses/by/4.0/).
+## Change Log
+Please see CHANGELOG.md.
 
-For more information please see LICENCES.md.
+## Licences
+Please see LICENCES.md.

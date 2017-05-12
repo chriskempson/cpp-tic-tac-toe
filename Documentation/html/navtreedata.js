@@ -1,6 +1,6 @@
 var NAVTREE =
 [
-  [ "Tic Tac Toe", "index.html", [
+  [ "Tic-tac-toe", "index.html", [
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
