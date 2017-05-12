@@ -28,7 +28,7 @@ Finally, copy `SDL.dll` from `SDL2-2.0.4\lib\x86` and from `SDL2_mixer-2.0.1\lib
 All sounds were created with [DefleMask Tracker](http://deflemask.com/) using Nintendo Game boy sound chip emulation. All images were created with the venerable [Microsoft Paint](https://en.wikipedia.org/wiki/Microsoft_Paint).
 
 ## Change Log
-Please see CHANGELOG.md.
+Please see [CHANGELOG.md](CHANGELOG.md).
 
 ## Licences
-Please see LICENCES.md.
+Please see [LICENCE.md](LICENCE.md).

@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [Unreleased] - 2017-05-12
+### Changed
+- Linked LICENCE.md and CHANGELOG.md from readme.
+
+### Removed 
+- Icon that had found its way into project root
+
 ## [1.0.2] - 2017-05-12
 ### Changed
 - Fix link to v1.0.1 compare
