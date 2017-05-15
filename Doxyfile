@@ -51,7 +51,7 @@ PROJECT_BRIEF          = "A game of Tic-tac-toe built with C++ and the Simple Di
 # pixels and the maximum width should not exceed 200 pixels. Doxygen will copy
 # the logo to the output directory.
 
-PROJECT_LOGO           = D:/Users/Chris/Development/cpp-tic-tac-toe/Tic-tac-toe/icon128.bmp
+PROJECT_LOGO           = Tic-tac-toe/icon128.bmp
 
 # The OUTPUT_DIRECTORY tag is used to specify the (relative or absolute) path
 # into which the generated documentation will be written. If a relative path is

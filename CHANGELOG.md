@@ -11,7 +11,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Changed
 - Link LICENCE.md and CHANGELOG.md from readme.
-
 - Pass SDL_Event by reference in Game class, otherwise it's impossible to 
   access some members
 - Move variable definitions from Game class CPP file to header
