@@ -31,6 +31,9 @@ struct Setting
 	/// colour such as { 0, 0xFF, 0xFF }
 	static const int color_key[];
 
+    /// Set a background colour for the renderer
+    static const int background_color[];
+
 	/// Set to false for peaceful development
 	static const bool play_sounds = true;
 

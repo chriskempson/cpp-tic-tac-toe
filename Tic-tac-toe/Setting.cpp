@@ -16,4 +16,7 @@ const std::string Setting::image_path = "images/";
 const std::string Setting::sound_path = "sounds/";
 
 // Set first element to -1 to disable colour keying
-const int Setting::color_key[] = { 0, 0xFF, 0xFF };
+const int Setting::color_key[] = { 0x00, 0xFF, 0xFF };
+
+// Default background colour for renderer
+const int Setting::background_color[] = { 0xFF, 0xFF, 0xFF, 0xFF };

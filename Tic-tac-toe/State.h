@@ -25,7 +25,7 @@ public:
 	 * Called first in the game loop to handle game events such as button
 	 * presses, mouse clicks, window resizing and so on.
 	 */
-	virtual void handle_events(SDL_Event* event) = 0;
+	virtual void handle_events(SDL_Event& event) = 0;
 
 	/**
 	 * Called second in the game loop to update game items such as character 

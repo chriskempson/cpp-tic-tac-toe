@@ -25,9 +25,9 @@ void Play_state::init()
 	grid.init();
 }
 
-void Play_state::handle_events(SDL_Event* event)
+void Play_state::handle_events(SDL_Event& event)
 {
-	if (event->type == SDL_MOUSEBUTTONDOWN) {
+	if (event.type == SDL_MOUSEBUTTONDOWN) {
 		advance_game();
 	}
 }

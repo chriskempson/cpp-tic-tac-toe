@@ -15,9 +15,9 @@ void About_state::init()
 	Resource_manager::load_sound("about")->play();
 }
 
-void About_state::handle_events(SDL_Event* event)
+void About_state::handle_events(SDL_Event& event)
 {
-	if (event->type == SDL_MOUSEBUTTONDOWN) {
+	if (event.type == SDL_MOUSEBUTTONDOWN) {
 		State_manager::set_state(new Title_state());
 	}
 }

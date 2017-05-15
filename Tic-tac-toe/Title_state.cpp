@@ -37,21 +37,21 @@ void Title_state::init()
 	toe_text_x = -20;
 }
 
-void Title_state::handle_events(SDL_Event* event)
+void Title_state::handle_events(SDL_Event& event)
 {
-	if (event->type == SDL_MOUSEBUTTONDOWN) {
+	if (event.type == SDL_MOUSEBUTTONDOWN) {
 
-		// Get mouse coords
-		int x, y;
-		SDL_GetMouseState(&x, &y);
+        // Get mouse coords
+        int mouse_x, mouse_y;
+        Game::get_mouse_position(&mouse_x, &mouse_y);
 
 		// Work out scaled distance from top right in pixels
-		int from_right = (Setting::actual_window_width - x) / Setting::scale_factor;
-		int from_top = y / Setting::scale_factor;
+		int pixels_from_right = Setting::window_width - mouse_x;
+		int pixels_from_top = mouse_y;
 
 		// If click falls within 8px from right and 9px from top user has 
 		// pressed the about button
-		if (from_right < 8 && from_top < 9) {
+		if (pixels_from_right <= 8 && pixels_from_top < 9) {
 			State_manager::set_state(new About_state());
 		}
 		else {

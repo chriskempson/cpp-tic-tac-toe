@@ -4,12 +4,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
-## [Unreleased] - 2017-05-12
+## [1.0.3] - 2017-05-15
 ### Changed
 - Linked LICENCE.md and CHANGELOG.md from readme.
+- Fixes link to SDL_mixer in .vcxproj file
+- Pass SDL_Event by reference in Game class, otherwise it's impossible to 
+  access some members
+- Move variable definitions from Game class CPP file to header
+- Added get_mouse_position function to Game class that takes into account 
+  scale factor when returning a position
 
 ### Removed 
-- Icon that had found its way into project root
+- Icon that had found its way into the project root
 
 ## [1.0.2] - 2017-05-12
 ### Changed
@@ -18,7 +24,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - Move Doxyfile to project root and update file accordingly
 
 ### Removed 
-- Remove generated documentation from Git repository. Generated documentation now provided in release.
+- Remove generated documentation from Git repository. Generated documentation
+  now provided in release.
 
 ## [1.0.1] - 2017-05-12
 ### Added
@@ -32,7 +39,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - Fix bracket indentation on Sound_resource::play() in Sound_resource class
 - Update win and draw graphics with slightly better text
 - Add How To Play section to README.md
-- Fix naming consistency issues "Tic Tac Toe" is now "Tic-tac-toe" in source and documentation
+- Fix naming consistency issues "Tic Tac Toe" is now "Tic-tac-toe" in source 
+  and documentation
 - Moved icon128.bmp outside of images folder as it isn't used by the game
 - Update licence section of README.md
 
@@ -40,5 +48,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Added
 - Initial release
 
+[1.0.3]: https://github.com/chriskempson/cpp-tic-tac-toe/compare/v1.0.2...v1.0.3
 [1.0.2]: https://github.com/chriskempson/cpp-tic-tac-toe/compare/v1.0.1...v1.0.2
 [1.0.1]: https://github.com/chriskempson/cpp-tic-tac-toe/compare/v1.0.0...v1.0.1
