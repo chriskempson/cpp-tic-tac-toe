@@ -5,27 +5,34 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [1.0.3] - 2017-05-15
+## Added
+- get_mouse_position function to Game class that takes into account scale
+  factor when returning a mouse position
+
 ### Changed
-- Linked LICENCE.md and CHANGELOG.md from readme.
-- Fixes link to SDL_mixer in .vcxproj file
+- Link LICENCE.md and CHANGELOG.md from readme.
+
 - Pass SDL_Event by reference in Game class, otherwise it's impossible to 
   access some members
 - Move variable definitions from Game class CPP file to header
-- Added get_mouse_position function to Game class that takes into account 
-  scale factor when returning a position
 
 ### Removed 
 - Icon that had found its way into the project root
 
+### Fixed
+- Link to SDL_mixer in .vcxproj file was pointing to the wrong directory
+
 ## [1.0.2] - 2017-05-12
 ### Changed
-- Fix link to v1.0.1 compare
 - Ignore Documentation folder
 - Move Doxyfile to project root and update file accordingly
 
 ### Removed 
 - Remove generated documentation from Git repository. Generated documentation
   now provided in release.
+
+### Fixed
+- Link to v1.0.1 compare
 
 ## [1.0.1] - 2017-05-12
 ### Added
