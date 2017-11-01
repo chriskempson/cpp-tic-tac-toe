@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=Tic-Tac-Toe
+Icon=/opt/tic-tac-toe/icon128.bmp
+# Only KDE 4 seems to use GenericName
+GenericName=A game of Tic-Tac-Toe
+# Gnome and KDE 3 use Comment
+Comment=A game of Tic-Tac-Toe
+Exec=/opt/tic-tac-toe/run.sh
+Terminal=false
+StartupNotify=false
+Type=Application
+Categories=Game;
+Keywords=tic-tac-toe;game;
