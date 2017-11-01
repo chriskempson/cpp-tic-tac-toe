@@ -1,5 +1,5 @@
 /*
- * Snake II
+ * Tic-tac-toe
  * MIT Licence, Copyright 2017 Chris Kempson (chriskempson.com)
  */
 
