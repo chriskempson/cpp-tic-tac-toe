@@ -4,6 +4,7 @@
  */
 
 #pragma once
+#include <string>
 #include <vector>
 #include "Image_resource.h"
 #include "Sound_resource.h"
