@@ -27,7 +27,7 @@ Finally, copy `SDL.dll` from `SDL2-2.0.4\lib\x86` and from `SDL2_mixer-2.0.1\lib
 ### Linux
 Use your package manager to install SDL2 and SDL2mixer e.g. `apt-get install libsdl2-dev libsdl2-mixer-dev` for Ubuntu/Debian or `yum install SDL2-devel SDL2_mixer-devel` for Fedora/CentOS.
 
-Next run `make` to compile. Once finished you can run `make run` to start the application. If you would like to install the application run `make install`. Finally, `make uninstall` can be used to uninstall the application.
+Next run `make` to compile. Once finished you can run `make run` to start the application. If you would like to install the application, run `make install` with elevated privileges e.g. `sudo make install`. Finally, running `make uninstall` with elevated privileges can be used to uninstall the application.
 
 ## Assets
 All sounds were created with [DefleMask Tracker](http://deflemask.com/) using Nintendo Game boy sound chip emulation. All images were created with the venerable [Microsoft Paint](https://en.wikipedia.org/wiki/Microsoft_Paint).
